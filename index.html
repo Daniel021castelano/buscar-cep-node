@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Por Cep</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" href="public/favicon_32.png?v=2">
+</head>
+
+<!-- Precisa ter = Cep, Bairro, Uf, DDD -->
+
+<body>
+    <h1>Buscar Por Cep</h1>
+    <p>Digite o CEP desejado:</p>
+    <input type="text" id="cepInput">
+    <p>Bairro</p>
+    <input type="text" id="bairro">
+    <p>UF</p>
+    <input type="text" id="uf">
+    <p>DDD</p>
+    <input type="text" id="ddd">
+    <br>
+    <button onclick="buscarCep()" id="buscarCepButton">Buscar CEP</button>
+    <br>
+    <button onclick="limparcep()" id="limparcepbutton">Limpar CEP</button>
+    
+    
+</body>
+
+</html>
